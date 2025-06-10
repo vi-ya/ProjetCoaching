@@ -133,44 +133,44 @@ You are free to use, modify, and distribute it under the terms outlined in the L
 
 <div align="center">
 <h4>Home page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_home.jpg" alt="coaching_home" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_home.jpg" alt="coaching_home" >
 </div>
 
 <div align="center">
 <h4>About page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_about.png" alt="coaching_about" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_about.png" alt="coaching_about" >
 </div>
 
 <div align="center">
 <h4>Login page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_login_error.png" alt="coaching_login_error" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_login_error.png" alt="coaching_login_error" >
 </div>
 
 <div align="center">
 <h4>Register page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_register.png" alt="coaching_register" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_register.png" alt="coaching_register">
 </div>
 
 <div align="center">
 <h4>Services page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_services.png" alt="coaching_services" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_services.png" alt="coaching_services" >
 </div>
 
 <div align="center">
 <h4>Cart page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_services_panier.png" alt="coaching_servives_cart" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_services_panier.png" alt="coaching_servives_cart" >
 </div>
 
 <div align="center">
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_panier.jpg" alt="coaching_cart" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_panier.jpg" alt="coaching_cart" >
 </div>
 
 <div align="center">
 <h4>Order page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_order.png" alt="coaching_order" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_order.png" alt="coaching_order" >
 </div>
 
 <div align="center">
 <h4>Admin page</h4>
-<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_admin.png" alt="coaching_admin" width="80%">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_admin.png" alt="coaching_admin" >
 </div>
