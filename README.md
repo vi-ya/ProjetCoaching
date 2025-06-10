@@ -9,15 +9,6 @@ A professional blog platform built with the MERN stack (MongoDB, Express.js, Rea
 - [Professional Blog - MERN Stack Website](#professional-blog---mern-stack-website)
   - [Table of Contents](#table-of-contents)
     - [General Info](#general-info)
-    - [Screenshot](#screenshot)
-      - [Home page](#home-page)
-      - [About page](#about-page)
-      - [Login page](#login-page)
-      - [Register page](#register-page)
-      - [Services page](#services-page)
-      - [Panier page](#panier-page)
-      - [Order page](#order-page)
-      - [Admin page](#admin-page)
   - [Requirements](#requirements)
   - [Installation guide](#installation-guide)
     - [Backend Setup](#backend-setup)
@@ -27,6 +18,15 @@ A professional blog platform built with the MERN stack (MongoDB, Express.js, Rea
   - [Admin Account](#admin-account)
   - [Collaboration](#collaboration)
   - [License](#license)
+   - [Screenshot](#screenshot)
+      - [Home page](#home-page)
+      - [About page](#about-page)
+      - [Login page](#login-page)
+      - [Register page](#register-page)
+      - [Services page](#services-page)
+      - [Cart page](#cart-page)
+      - [Order page](#order-page)
+      - [Admin page](#admin-page)
 
 ### General Info
 
@@ -44,60 +44,6 @@ Planned enhancements include:
 - Blog post search and categorization
 - Multilingual support
 - Integration with third-party analytics and email services
-
-### Screenshot
-
-#### Home page
-
-<div align="center">
-<img src="![coaching_home](https://github.com/user-attachments/assets/88580fe3-4d9c-4630-8d03-8fb6037e58ac)" width="40%">
-</div>
-
-#### About page
-
-<div align="center">
-<img src="![coaching_about](https://github.com/user-attachments/assets/a301fd5f-5f69-4177-a5db-68bc685f54fd)" width="40%">
-</div>
-
-#### Login page
-
-<div align="center">
-<img src="![coaching_login](https://github.com/user-attachments/assets/dc2e235d-f4a8-485c-be03-47fa287b2c68)" width="40%">
-</div>
-
-#### Register page
-
-<div align="center">
-<img src="![coaching_register](https://github.com/user-attachments/assets/99e1d0c1-1c07-4d91-8905-d960c8bbedf0)" width="40%">
-</div>
-
-#### Services page
-
-<div align="center">
-<img src="![coaching_services](https://github.com/user-attachments/assets/48e67f0a-9268-44a6-83de-384a3f05ae7f)" width="40%">
-</div>
-
-#### Panier page
-
-<div align="center">
-<img src="![coaching_services_panier](https://github.com/user-attachments/assets/70991c48-f87f-4283-a233-f3cd2183c266)" width="40%">
-</div>
-
-<div align="center">
-<img src="![coaching_panier](https://github.com/user-attachments/assets/13920457-0d24-4bc7-b4d4-0176a12991c4)" width="40%">
-</div>
-
-#### Order page
-
-<div align="center">
-<img src="![coaching_order](https://github.com/user-attachments/assets/787812ed-7005-4be4-bc6e-04f9ec6a1f56)" width="40%">
-</div>
-
-#### Admin page
-
-<div align="center">
-<img src="![coaching_admin](https://github.com/user-attachments/assets/f7ec620a-d8b0-406b-beea-91a984695761)" width="40%">
-</div>
 
 ## Requirements
 
@@ -182,3 +128,49 @@ Feel free to fork, contribute, or open issues and pull requests. Your help is ap
 This project is licensed under the **MIT License**.
 
 You are free to use, modify, and distribute it under the terms outlined in the LICENSE file.
+
+### Screenshot
+
+<div align="center">
+<h4>Home page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_home.jpg" alt="coaching_home" width="40%">
+</div>
+
+<div align="center">
+<h4>About page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_about.png" alt="coaching_about" width="60%">
+</div>
+
+<div align="center">
+<h4>Login page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_login_error.png" alt="coaching_login_error" width="60%">
+</div>
+
+<div align="center">
+<h4>Register page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_register.png" alt="coaching_register" width="60%">
+</div>
+
+<div align="center">
+<h4>Services page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_services.png" alt="coaching_services" width="60%">
+</div>
+
+<div align="center">
+<h4>Cart page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_services_panier.png" alt="coaching_servives_cart" width="40%">
+</div>
+
+<div align="center">
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_panier.jpg" alt="coaching_cart" width="40%">
+</div>
+
+<div align="center">
+<h4>Order page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_order.png" alt="coaching_order" width="40%">
+</div>
+
+<div align="center">
+<h4>Admin page</h4>
+<img src="https://github.com/vi-ya/ProjetCoaching/blob/573d75eccdac178ea409356d710ec85c0237a7ea/resources/images/coaching_admin.png" alt="coaching_admin" width="40%">
+</div>
