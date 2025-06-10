@@ -92,13 +92,13 @@ Create a `.env` file in both the `backend/` and `frontend/` directories.
 
 | Variable | Description |
 | --- | --- |
-| PORT | Backend port (default: 6000) |
-| BASE_URL | Backend port (http://localhost:6000) |
-| BASE_URL_ORIGIN | Frontend port (http://localhost:6000) |
+| PORT | Backend port default (6000) |
+| BASE_URL | Backend port (http://localhost:6000/) |
+| BASE_URL_ORIGIN | Frontend port (http://localhost:5000) |
 | JWT_SECRET | Key used for token encryption |
 | DB_URI | MongoDB connection string |
 | --- | --- |
-| REACT_APP_API | Frontend port (http://localhost:8000) |
+| REACT_APP_API | Backend port (http://localhost:6000) |
 
 Copy **env_example**  you will need to rename it **.env** Inside there, you can fill in the values of the environment variables (backend and frontend).
 
