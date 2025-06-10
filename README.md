@@ -129,7 +129,7 @@ This project is licensed under the **MIT License**.
 
 You are free to use, modify, and distribute it under the terms outlined in the LICENSE file.
 
-### Screenshot
+## Screenshot
 
 <div align="center">
 <h4>Home page</h4>
