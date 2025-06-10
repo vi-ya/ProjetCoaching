@@ -60,7 +60,7 @@ Planned enhancements include:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YAVI-DEV/ProjetCoaching.git
+git clone https://github.com/vi-ya/ProjetCoaching.git
 cd ProjetCoaching
 
 ```
