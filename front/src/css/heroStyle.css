@@ -1,0 +1,76 @@
+/* *****************************************************************
+**************************VERSION MOBILE****************************      			
+***************************************************************** */
+
+/* *****************************************************************
+HERO
+***************************************************************** */
+
+.slider_hero {
+    background-image: var(--gradient-bg);
+    vertical-align: middle;
+    align-self: center;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.slider_hero article {
+    padding: 50px;
+    margin-top: 0px;
+    color: var(--color-muted);
+    text-align: left;
+}
+
+.slider_hero img {
+    display: none;
+}
+
+.slider_hero h1 {
+    color: var(--color-primary);
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.slider_hero p {
+    margin-bottom: 35px;
+}
+
+.btn_hero {
+    flex: 100%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.slider_hero button {
+    margin-bottom: 0;
+    margin: 5px;
+}
+
+/* *****************************************************************
+ VERSION TABLETTE
+***************************************************************** */
+@media screen and (min-width: 780px) {
+
+    /* hero */
+
+    .slider_hero article:first-child {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    .slider_hero article:last-child {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .slider_hero img {
+        display: block;
+        border-radius: 10px;
+    }
+
+
+}

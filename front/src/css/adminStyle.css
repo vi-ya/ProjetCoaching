@@ -1,0 +1,263 @@
+/* *****************************************************************
+**************************VERSION MOBILE****************************      			
+***************************************************************** */
+
+/* *****************************************************************
+DASHBOARD
+***************************************************************** */
+
+.nav_board {
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+
+	.nav_board a {
+		padding: 5px;
+	}
+}
+
+
+/* *****************************************************************
+ADMIN
+***************************************************************** */
+
+.table_admin {
+	margin-top: 32px;
+}
+
+.t_admin_1 caption {
+	text-align: center;
+	color: var(--color-secondary);
+	font-weight: bold;
+	font-size: clamp(1.4rem, calc(4.5vw + 0.8rem), 2.4rem);
+	font-family: "Corben", serif;
+}
+
+.admin_back {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.table_admin td,
+th,
+caption {
+	border: 1px solid var(--color-secondary)
+}
+
+.table_admin table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table_admin thead {
+	background-color: var(--color-background);
+	color: var(--color-secondary)
+}
+
+.table_admin th,
+td {
+	font-size: clamp(1.1rem, calc(2.5vw + 0.55rem), 1.5rem);
+
+}
+
+.table_admin th {
+	padding: 32px;
+	font-family: "Raleway", sans-serif;
+
+}
+
+.table_admin td {
+	padding: 16px;
+	vertical-align: top;
+}
+
+.t_admin_2 td:nth-child(6),
+td:last-child {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.t_admin_1 td {
+	text-align: center;
+}
+
+.t_admin_2 {
+	margin-top: 160px;
+	margin-bottom: 80px;
+}
+
+.t_admin_2 li {
+	list-style: none;
+}
+
+.t_admin_r {
+	overflow-x: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+	.t_admin_1 caption {
+		font-size: clamp(1.6rem, calc(6vw + 1rem), 3rem);
+	}
+
+	.table_admin th,
+	td {
+		font-size: clamp(1.2rem, calc(3vw + 0.6rem), 1.8rem);
+
+	}
+
+}
+
+/* *****************************************************************
+ADMIN ADD
+***************************************************************** */
+
+.admin_add h2 {
+	color: var(--color-secondary);
+	text-align: center;
+	font-weight: bold;
+}
+
+.admin_add h3 {
+	text-align: center;
+
+}
+
+.field+.field {
+	border-top: 1px solid var(--color-muted);
+}
+
+.admin_add label {
+	padding: 8px;
+	font-size: clamp(1.2rem, calc(3vw + 0.6rem), 1.8rem);
+	color: var(--color-secondary);
+	font-weight: 400;
+}
+
+
+.admin_add input[type="text"],
+select,
+textarea {
+	display: inline-block;
+	padding: 8px 16px;
+	font-size: clamp(1.1rem, calc(2.5vw + 0.55rem), 1.5rem);
+	color: var(--color-text);
+	background-color: var(--color-muted);
+	border: 1px solid var(--color-primary);
+	border-radius: 8px;
+}
+
+.admin_add select,
+textarea {
+	width: 100%;
+}
+
+.field {
+	display: flex;
+	padding: 16px 0;
+}
+
+.field label {
+	width: 50%;
+
+}
+
+.admin_add_desc input {
+	width: 100%;
+}
+
+.admin_add_opt select {
+	width: 50%;
+
+}
+
+.admin_add_opt label {
+	width: 50%;
+}
+
+
+.admin_add fieldset {
+	margin: 32px 80px;
+	padding: 16px;
+	border: 1px solid var(--color-primary);
+	border-radius: 8px;
+	background-color: var(--color-background)
+}
+
+.admin_add legend {
+	padding: 0 16px;
+	text-transform: uppercase;
+	color: var(--color-secondary);
+	font-weight: bold;
+	font-size: clamp(1.4rem, calc(4.5vw + 0.8rem), 2.4rem);
+
+}
+
+.admin_add_price select,
+input {
+	width: 50%;
+}
+
+.admin_add_price label {
+	width: 50%;
+}
+
+.admin_add_btn {
+	padding: 16px 32px;
+	text-align: center;
+	border: 1px solid var(--color-text);
+	border-radius: 8px;
+}
+
+.admin_add_btn {
+	margin: 32px 80px;
+	flex-direction: column;
+}
+
+/* *****************************************************************
+ADMIN USERS
+***************************************************************** */
+
+.t_admin_u caption {
+	color: var(--color-secondary);
+	font-weight: bold;
+	font-size: clamp(1.4rem, calc(4.5vw + 0.8rem), 2.4rem);
+	font-family: "Corben", serif;
+}
+
+.t_admin_u {
+	width: 20%;
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.t_admin_u th,
+td {
+	font-size: clamp(1.1rem, calc(2.5vw + 0.55rem), 1.5rem);
+	font-family: "Raleway", sans-serif;
+	border: 1px solid var(--color-secondary);
+	padding: 8px;
+}
+
+.t_admin_u th {
+	color: var(--color-secondary);
+}
+
+@media screen and (min-width: 768px) {
+
+	.t_admin_u caption {
+		font-size: clamp(1.6rem, calc(6vw + 1rem), 3rem);
+	}
+
+	.t_admin_u th,
+	td {
+		font-size: clamp(1.2rem, calc(3vw + 0.6rem), 1.8rem);
+
+	}
+
+}

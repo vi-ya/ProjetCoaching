@@ -1,0 +1,297 @@
+[{
+  "_id": {
+    "$oid": "656440b2de643f28fd5d299d"
+  },
+  "ref": 1,
+  "title": "Coaching en Ventes",
+  "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+  "target": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "modes": [
+    {
+      "mode": "Individuel"
+    },
+    {
+      "mode": "Collectif"
+    },
+    {
+      "mode": "Mixte"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Vente"
+    }
+  ],
+  "locations": [
+    {
+      "location": "En présentiel"
+    },
+    {
+      "location": "À distance"
+    },
+    {
+      "location": "Hybride"
+    }
+  ],
+  "peoples": [
+    {
+      "people": "Commercial"
+    }
+  ],
+  "choice": [
+    {
+      "option": "Individuel",
+      "price": 3000
+    },
+    {
+      "option": "Collectif",
+      "price": 2500
+    },
+    {
+      "option": "Mixte",
+      "price": 3500
+    }
+  ],
+  "order_count": 0,
+  "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+  "benefit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "program": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
+},
+{
+  "_id": {
+    "$oid": "6561b41c74bd67092c403523"
+  },
+  "ref": 2,
+  "title": "Coaching en Leadership",
+  "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,",
+  "target": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "modes": [
+    {
+      "mode": "Individuel"
+    },
+    {
+      "mode": "Collectif"
+    },
+    {
+      "mode": "Mixte"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Management"
+    }
+  ],
+  "locations": [
+    {
+      "location": "En présentiel"
+    },
+    {
+      "location": "À distance"
+    },
+    {
+      "location": "Hybride"
+    }
+  ],
+  "peoples": [
+    {
+      "people": "Manager"
+    }
+  ],
+  "choice": [
+    {
+      "option": "Individuel",
+      "price": 4000
+    },
+    {
+      "option": "Collectif",
+      "price": 3500
+    },
+    {
+      "option": "Mixte",
+      "price": 4500
+    }
+  ],
+  "order_count": 0,
+  "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+  "benefit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "program": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
+},
+{
+  "_id": {
+    "$oid": "655e16df022cb006c70ddbf6"
+  },
+  "ref": 3,
+  "title": "Coaching à la carte",
+  "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "target": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "modes": [
+    {
+      "mode": "Individuel"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Leadership"
+    },
+    {
+      "subject": "Prospection"
+    },
+    {
+      "subject": "Closing"
+    },
+    {
+      "subject": "Gestion du temps"
+    },
+    {
+      "subject": "Communication"
+    }
+  ],
+  "locations": [
+    {
+      "location": "En présentiel"
+    },
+    {
+      "location": "À distance"
+    },
+    {
+      "location": "Hybride"
+    }
+  ],
+  "peoples": [
+    {
+      "people": "Commercial"
+    },
+    {
+      "people": "Manager"
+    },
+    {
+      "people": "Entrepreneur"
+    }
+  ],
+  "choice": [
+    {
+      "option": "Individuel",
+      "price": 3000
+    }
+  ],
+  "order_count": 0,
+  "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+  "benefit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "program": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
+},
+{
+  "_id": {
+    "$oid": "68405980f9f4b526749fd21f"
+  },
+  "ref": 4,
+  "title": "test",
+  "description": "test",
+  "target": "test",
+  "content": "test",
+  "benefit": "test",
+  "program": "test",
+  "modes": [
+    {
+      "mode": "Collectif",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd220"
+      }
+    },
+    {
+      "mode": "Individuel",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd221"
+      }
+    },
+    {
+      "mode": "Mixte",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd222"
+      }
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Closing",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd223"
+      }
+    },
+    {
+      "subject": "Communication",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd224"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "location": "En présentiel",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd225"
+      }
+    },
+    {
+      "location": "Hybride",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd226"
+      }
+    },
+    {
+      "location": "À distance",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd227"
+      }
+    }
+  ],
+  "peoples": [
+    {
+      "people": "Commercial",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd228"
+      }
+    },
+    {
+      "people": "Entrepreneur",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd229"
+      }
+    },
+    {
+      "people": "Manager",
+      "_id": {
+        "$oid": "68405980f9f4b526749fd22a"
+      }
+    }
+  ],
+  "choice": [
+    {
+      "option": "Collectif",
+      "price": 100,
+      "_id": {
+        "$oid": "68405980f9f4b526749fd22b"
+      }
+    },
+    {
+      "option": "Individuel",
+      "price": 140,
+      "_id": {
+        "$oid": "68405980f9f4b526749fd22c"
+      }
+    },
+    {
+      "option": "Mixte",
+      "price": 198,
+      "_id": {
+        "$oid": "68405980f9f4b526749fd22d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-06-04T14:34:40.518Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T14:34:40.518Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "653a716aa97a2d1b6fb51b15"
+  },
+  "title": "Coaching en Ventes",
+  "image": [
+    {
+      "src": "1.jpg",
+      "alt": "Coaching en Ventes"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "653a716aa97a2d1b6fb51b16"
+  },
+  "title": "Coaching en Leadership",
+  "image": [
+    {
+      "src": "2.jpg",
+      "alt": "Coaching en Leadership"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "653a716aa97a2d1b6fb51b17"
+  },
+  "title": "Coaching à la carte",
+  "image": [
+    {
+      "src": "3.jpg",
+      "alt": "Coaching à la carte"
+    }
+  ]
+}]

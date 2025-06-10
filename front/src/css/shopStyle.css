@@ -1,0 +1,130 @@
+/* *****************************************************************
+**************************VERSION MOBILE****************************      			
+***************************************************************** */
+
+/* *****************************************************************
+SHOP
+***************************************************************** */
+
+.shopping h2 {
+    color: var(--color-secondary);
+    text-align: center;
+    padding: 16px;
+
+}
+
+.shopping table {
+    border-collapse: separate;
+    width: 100%;
+}
+
+.shopping P {
+    text-align: center;
+}
+
+.btn_shop {
+    text-align: center;
+}
+
+
+.shop td,
+th {
+    border: 1px solid var(--color-primary);
+}
+
+.shop thead {
+    background-color: #f3f9ff;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.shop th {
+    padding: 16px;
+}
+
+.shop tbody td {
+    text-align: center;
+}
+
+.shop td:first-child {
+    text-align: left;
+    padding-left: 32px;
+}
+
+.shop td input {
+    width: 40px;
+    height: 29px;
+    padding: 2px;
+}
+
+.shop_info {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.coachings_list {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+
+
+.shop_info span {
+    color: var(--color-primary)
+}
+
+.shop_info strong {
+    color: var(--color-secondary);
+}
+
+/* *****************************************************************
+COMMANDS
+***************************************************************** */
+
+.commands h2 {
+    color: var(--color-secondary);
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.commands thead {
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.commands th {
+    padding: 1em;
+}
+
+.commands table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.commands td,
+th {
+    border: 1px solid var(--color-primary);
+}
+
+.commands ul {
+    text-align: left;
+    padding: 16px;
+    margin-top: 0;
+}
+
+.commands tbody td:first-child {
+    vertical-align: top;
+    text-align: left;
+    padding: 16px
+}
+
+.commands tbody td:last-child {
+    vertical-align: top;
+    text-align: center;
+    padding: 16px;
+}

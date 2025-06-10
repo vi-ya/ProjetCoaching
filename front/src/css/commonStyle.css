@@ -1,0 +1,247 @@
+/* *****************************************************************
+FONT-FAMILY
+***************************************************************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Montserrat:ital@0;1&family=Raleway:ital@0;1&display=swap');
+
+/* 
+.corben-regular {
+	font-family: "Corben", serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+ .raleway-<uniquifier> {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+ 
+.montserrat-<uniquifier> {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+ }
+  */
+
+/* *****************************************************************
+TOOLS
+***************************************************************** */
+/* La largeur (width) de chaque boîte comprend le padding et la bordure */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	/* 1rem = 10px (la formule est 10/16*100) taille par défaut = 16px */
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	/* taille du texte par défaut = 16px) */
+	font-size: 1.6rem;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Le titre principal*/
+h1 {
+	font-size: clamp(1.6rem, calc(6vw + 1rem), 3rem);
+	/*  1.6rem = 25.6px / 3rem = 48px*/
+	font-family: "Corben", serif;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* Le titre de niveau */
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
+	font-size: clamp(1.4rem, calc(4.5vw + 0.8rem), 2.4rem);
+	/*22.4px => 38.4px*/
+}
+
+h3 {
+	font-size: clamp(1.2rem, calc(3vw + 0.6rem), 1.8rem);
+	/*19.2px => 28.8px*/
+}
+
+h4 {
+	font-size: clamp(1.1rem, calc(2.5vw + 0.55rem), 1.5rem);
+	/* 17.6px => 24px*/
+}
+
+h5 {
+	font-size: clamp(1.05rem, calc(2vw + 0.5rem), 1.3rem);
+	/* 16.8px => 20.8px */
+}
+
+p {
+	font-size: clamp(1rem, calc(1.5vw + 0.5rem), 1.2rem);
+	/* 16px => 19.2px */
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+	color: var(--color-text);
+}
+
+.fa-solid,
+.fa-brands {
+	font-size: 20px;
+	padding: 15px;
+	text-align: center;
+	color: var(--color-secondary);
+
+}
+
+.fa-solid:hover {
+	transition: 0.5s;
+	color: var(--color-primary);
+}
+
+
+/* Les liens */
+a {
+	text-decoration: none;
+	font-size: inherit;
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: var(--color-primary);
+}
+
+a:hover {
+	transition: 0.5;
+	color: var(--color-secondary);
+}
+
+
+/* Les listes  */
+ul {
+	list-style: none;
+}
+
+ul li {
+	font-size: inherit;
+	font-family: "Raleway", sans-serif;
+}
+
+small {
+	font-family: "Raleway", sans-serif;
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	/* vertical-align: middle; */
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	/* lissage pour IE */
+	-ms-interpolation-mode: bicubic;
+	/* lissage pour Chrome au redimensionnement*/
+	image-rendering: -webkit-optimize-contrast;
+}
+
+figure {
+	margin-block: 0;
+	margin-inline: 0;
+}
+
+button {
+	display: inline-block;
+	background-image: var(--gradient-bg);
+	background-size: 200% auto;
+	color: var(--color-muted);
+	font-size: clamp(1.1rem, calc(1.8vw + 0.5rem), 1.4rem);
+	/* 17.6px => 22.4px max */
+	font-weight: 500;
+	border: 1px solid var(--color-background);
+	line-height: 48px;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 300ms linear 0s;
+	line-height: 34px;
+	padding: 0px 10px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.focus {
+	flex: 1 0 100%;
+	text-align: center;
+}
+
+.title {
+	color: var(--color-primary);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* *****************************************************************
+CONTAINER
+***************************************************************** */
+
+.container {
+	padding: min(0.5em, 8%);
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* *****************************************************************
+COLORS
+***************************************************************** */
+
+
+:root {
+	--color-primary: #0f2b46;
+	--color-secondary: #0755b0;
+	--color-muted: #fff;
+	--color-text: #333;
+	--color-background: #edf6ff;
+	--color-error: #D92D20;
+	--color-success: #1F845A;
+	--gradient-bg: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+	/*background-image*/
+}
+
+
+.message-error {
+	color: var(--color-error);
+	font-weight: bold;
+	margin-top: 8px;
+	font-size: clamp(1rem, calc(1.5vw + 0.5rem), 1.2rem);
+	text-align: center;
+
+}
+
+.message-success {
+	color: var(--color-success);
+	font-weight: bold;
+	margin-top: 8px;
+	font-size: clamp(1rem, calc(1.5vw + 0.5rem), 1.2rem);
+	text-align: center;
+
+}

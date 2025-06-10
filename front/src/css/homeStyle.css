@@ -1,0 +1,637 @@
+/* *****************************************************************
+**************************VERSION MOBILE****************************      			
+***************************************************************** */
+
+/* *****************************************************************
+HEADER
+***************************************************************** */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.nav_bar {
+  background-image: var(--gradient-bg);
+  padding: 5px 0px 5px;
+  align-items: center;
+}
+
+.nav_bar a {
+  font-size: clamp(1.2rem, calc(3vw + 0.6rem), 1.8rem);
+}
+
+
+.nav_logo img {
+  object-fit: inherit;
+}
+
+nav a {
+  padding: 7px 112px;
+  display: block;
+  color: var(--color-primary);
+  font-weight: bold;
+  margin: 16px;
+  border: 1px solid var(--color-background);
+  border-radius: 3px;
+  transition: all 300ms linear 0s;
+}
+
+nav a:hover {
+  transition: 0.5s;
+  color: var(--color-muted);
+}
+
+
+.check_btn_on {
+  flex-direction: start;
+  font-size: large;
+  color: var(--color-secondary);
+  cursor: pointer;
+
+}
+
+.nav_login {
+  Padding: 16px;
+  gap: 8px;
+  display: flex;
+}
+
+.bag-shopping,
+.nav_login {
+  padding: 32px;
+}
+
+.fa-bag-shopping p,
+.nav_login p {
+  color: var(--color-secondary);
+  font-weight: bold;
+  margin: 0;
+}
+
+.fa-bag-shopping,
+.fa-bars,
+.fa-user {
+  font-size: large;
+  color: var(--color-secondary)
+}
+
+.fa-bars {
+  height: 3px;
+  cursor: pointer;
+  color: var(--color-secondary);
+  margin-bottom: 24px;
+}
+
+
+.fa-user:hover,
+.fa-bag-shopping:hover {
+  transition: 0.5s;
+  color: var(--color-primary);
+}
+
+#check {
+  display: none;
+}
+
+#check:checked~.nav_bar {
+  display: none;
+
+}
+
+/* *****************************************************************
+NAV_ACCESS_HOME
+***************************************************************** */
+
+.nav_access_home {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.nav_access_home a {
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  color: var(--color-muted);
+  background-color: var(--color-primary);
+}
+
+.nav_access_home a:focus {
+  opacity: 1;
+}
+
+/* *****************************************************************
+SERVICES
+***************************************************************** */
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  gap: 24px;
+}
+
+
+#Services h2 {
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+
+.services h3 {
+  text-align: center;
+  background: var(--color-background);
+  padding: 35px 15px;
+  border-bottom: 1px solid var(--color-muted);
+  color: var(--color-primary);
+  margin-bottom: 0px;
+}
+
+.services img {
+  display: none;
+}
+
+.services article {
+  max-width: 360px;
+  margin: 0px auto 30px;
+  text-align: center;
+  border: 1px solid var(--color-background);
+  border-radius: 5px;
+  min-width: 80%;
+}
+
+
+/* *****************************************************************
+SERVICES OPTIONS
+***************************************************************** */
+
+.services_options {
+  padding-top: 48px;
+  background: var(--color-background);
+  padding-bottom: 90px;
+}
+
+.services_options div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.services_options article {
+  padding: 16px 32px;
+}
+
+.services_options p {
+  padding: 5px;
+}
+
+.services_options h2 {
+  color: var(--color-primary);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.services_options ul {
+  padding-left: 0;
+}
+
+.services_options ul li {
+  line-height: 32px;
+  max-width: 570px;
+  margin: auto;
+}
+
+.services_options figcaption {
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.fa-person-chalkboard,
+.fa-handshake,
+.fa-house-laptop,
+.fa-people-group {
+  border: 1px solid var(--color-muted);
+  border-radius: 5px;
+  background: var(--color-background);
+  margin: 30px auto;
+}
+
+/* *****************************************************************
+EXPERTISE
+***************************************************************** */
+
+.expertise {
+  flex-direction: row;
+  text-align: left;
+  background: #edf6ff;
+  padding: 32px;
+  padding-top: 80px;
+  vertical-align: middle;
+  align-self: center;
+  padding-bottom: 90px;
+}
+
+.expertise div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.expertise article:last-child {
+  padding: 0 40px;
+}
+
+.expertise article img {
+  display: none;
+}
+
+.expertise h2 {
+  flex: 1 0 100%;
+
+}
+
+.expertise p {
+  color: var(--color-text);
+}
+
+
+/* *****************************************************************
+CLIENTS
+***************************************************************** */
+
+.scroller_client {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+
+.scroller_auto {
+  display: flex;
+  width: calc(280px * 8);
+  animation: scroll 10s linear infinite;
+  gap: 112px;
+  align-items: center
+}
+
+.scroller_auto img {
+  object-fit: contain;
+
+}
+
+.scroller_client h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.scroller_auto li {
+  perspective: 100px;
+}
+
+.scroller_auto li img {
+  transition: transform 1s;
+  width: calc(8 * 12em * 2);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(calc(-50% / 2))
+  }
+}
+
+.scroller_client:hover .scroller_auto {
+  animation-play-state: paused
+}
+
+.scroller_auto li img:hover {
+  transform: translateZ(1.5em);
+}
+
+.scroller_client:before,
+.scroller_client:after {
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  content: "";
+  z-index: 2
+}
+
+.scroller_client:before {
+  left: 0;
+  background: linear-gradient(to left, rgb(255, 255, 255, 0), var(--color-muted));
+}
+
+.scroller_client:after {
+  right: 0;
+  background: linear-gradient(to right, rgb(255, 255, 255, 0), var(--color-muted));
+}
+
+/* *****************************************************************
+CONSULTING
+***************************************************************** */
+
+.consulting {
+  text-align: left;
+  padding: 16px;
+  background: var(--color-background);
+  padding-bottom: 90px;
+  padding-top: 70px;
+  padding-left: 32px;
+}
+
+.consulting div {
+  display: flex;
+  flex-direction: row;
+}
+
+.consulting article img {
+  display: none;
+}
+
+.consulting h2 {
+  margin-bottom: 15px;
+}
+
+
+
+/* *****************************************************************
+FOOTER
+***************************************************************** */
+
+footer {
+  padding-bottom: 90px;
+  padding-top: 70px;
+}
+
+footer h3 {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.footer_elements {
+  text-align: center;
+  line-height: 32px;
+}
+
+.footer_elements div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer_elements ul {
+  padding: 0;
+}
+
+.footer_elements article:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_elements ul li {
+  color: var(--color-primary);
+  font-size: clamp(1.1rem, calc(2.5vw + 0.55rem), 1.5rem);
+}
+
+.footer_elements a {
+  font-size: clamp(1.1rem, calc(2.5vw + 0.55rem), 1.5rem);
+}
+
+.footer_elements a:hover {
+  transition: 0.5s;
+  color: var(--color-primary);
+}
+
+.footer_elements address {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_elements .fa-solid {
+  padding-left: 0;
+}
+
+.reseaux .fa-brands {
+  display: inline-block;
+}
+
+.footer_coop p {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.input_email button {
+  margin: 0;
+  padding: 10px;
+  line-height: 20px;
+}
+
+
+.input_email {
+  align-items: stretch;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.input_email input {
+  height: auto;
+  background: var(--color-background);
+  border: none;
+  padding: 0px 21px;
+  color: var(--color-muted);
+  outline: none;
+  border: 1px solid var(--color-background);
+  transition: all 300ms linear 0s;
+  border-radius: 3px;
+
+}
+
+/* *****************************************************************
+ VERSION TABLETTE
+***************************************************************** */
+
+@media screen and (min-width: 780px) {
+
+  /* HEADER */
+
+  header {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .nav_logo {
+    justify-content: center;
+    padding: 0;
+  }
+
+
+  .nav_bar {
+    background-image: none;
+    display: flex;
+    gap: 21px;
+    white-space: nowrap;
+    padding: 0px 10px;
+  }
+
+
+  .nav_login {
+    padding: 0;
+    align-items: center;
+  }
+
+  nav a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+  }
+
+  nav a:hover {
+    transition: 0.5s;
+    color: var(--color-secondary);
+  }
+
+  .nav_login p {
+    margin: 0;
+  }
+
+  .fa-bag-shopping p,
+  .nav_login p {
+    display: none;
+  }
+
+  .fa-bag-shopping,
+  .fa-user {
+    padding: 0px 12px;
+    border: 1px solid var(--color-background);
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+    border-radius: 5px;
+
+  }
+
+  .check_btn_on {
+    display: none;
+    float: right;
+  }
+
+  #check {
+    display: none;
+    float: right;
+  }
+
+  #check:checked~.nav_bar {
+    display: block;
+  }
+
+  /* SERVICE */
+
+
+  .services article {
+    min-width: 30%;
+  }
+
+  .services img {
+    display: block;
+    max-width: 280px;
+    margin: 0px auto 26px;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+
+  /* SERVICES_OPTIONS*/
+
+  .services_options {
+    justify-content: space-around;
+  }
+
+  /* EXPERTISE */
+
+  .expertise article img {
+    display: block;
+    border-radius: 10px;
+  }
+
+  .expertise article {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /*CONSULTING*/
+
+  .consulting article {
+    flex-basis: calc(100% / 2 - 0rem);
+  }
+
+
+  .img_consulting {
+    position: absolute;
+  }
+
+  .consulting article img {
+    display: block;
+    box-shadow: 11rem -5rem var(--color-secondary);
+    width: 40%;
+    position: relative;
+    top: 48px;
+    left: 180px;
+  }
+
+  /* FOOTER */
+
+  .footer_elements {
+    align-items: center;
+
+  }
+
+
+  .footer_elements div {
+    flex-flow: nowrap;
+    text-align: left;
+    justify-content: space-around;
+  }
+
+
+  .footer_elements small {
+    margin-top: 15px;
+  }
+
+  .reseaux .fa-brands {
+    font-size: 30px;
+  }
+
+  .input_email {
+    align-items: stretch;
+    width: 80%;
+    display: flex;
+    margin-bottom: 35px;
+    margin: 0;
+  }
+
+}
+
+/* *****************************************************************
+ VERSION DESKTOP
+***************************************************************** */
+@media screen and (min-width: 1200px) {}
